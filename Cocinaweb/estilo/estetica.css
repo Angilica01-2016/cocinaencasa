@@ -1,0 +1,66 @@
+body { 
+     font-family: 'Cormorant Garamond', serif; /* FUENTE  */
+    max-width: 900px; /* alt + shift + a -- Ancho máximo */ 
+    margin: 0 auto; /* Margen */ 
+}
+nav { 
+    background: wheat; /* Color de fondo */
+    width: 100%; /* Ancho */
+    height: 160px; /* Alto */
+
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.10s all;
+    padding: 18px 20px;
+}
+nav ul li:hover { /* Cuando este sobre un elemento ocurra un cambio*/
+    background-color: rgb(247, 204, 124);
+}
+.img-viggie{
+    width: 180px; /* Ancho*/
+    padding: 20px; 
+}
+nav ul{
+   
+    display: inline-flex;
+    position: relative;
+    top: -60px;
+}
+nav ul li a{ 
+    text-decoration: none; /*decoración de texto ninguno*/
+    color: black; /* color letra*/
+}
+
+h1, figure, ul{
+    margin: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+.section1{
+    background-color: rgb(235, 155, 221);
+}
+
+.text{
+    background:rgb(250, 125, 250) ;
+    width: 54%;
+    padding: 8px;
+    vertical-align: top;
+}
+
+.text2{
+    background:rgb(197, 137, 197) ;
+    width: 54%;
+    padding: 8px;
+    vertical-align: top;
+}
+article{
+    background: rgb(165, 111, 125);
+}
+article h1, h2{
+border-bottom: 1px solid rgb(70, 27, 27);
+}
