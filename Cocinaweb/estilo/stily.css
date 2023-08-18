@@ -5,13 +5,14 @@ body {
 }
 nav { 
     background: wheat; /* Color de fondo */
-    width: 100%; /* Ancho */
+    width: 81.5%; /* Ancho */
     height: 200px; /* Alto */
     
 }
 nav ul li {
     list-style-type: none;
     display: inline-block;
+    font-size: 20px;
     transition: 0.10s all;
     padding: 18px 20px;
 }
@@ -20,8 +21,8 @@ nav ul li:hover{ /* Cuando este sobre un elemento ocurra un cambio*/
 }
 
 .img-logo{
-    width: 180px; /* Ancho*/
-    padding: 20px; 
+    width: 160px; /* Ancho*/
+    padding: 40px; 
 }
 
 nav ul{
@@ -36,7 +37,7 @@ nav ul li a{
 }
 
 h1 h2, figure, ul{
-    margin: 0;
+    margin: 40;
 }
 
 img{
@@ -48,13 +49,14 @@ img{
 .video{
     background:rgb(197, 137, 197) ;
     width: 0%;
-    height:0%;
+    height: 0%;
 }
 .text{
     background:rgb(250, 125, 250) ;
     width: 80%;
     padding: 8px;
     vertical-align: top;
+    font-size: 25px;
 }
 
 .text2{
@@ -62,18 +64,22 @@ img{
     width: 25%;
     padding: 2px;
     vertical-align: top;
+    font-size: 17.7px;
+    text-align: center;
 }
 article{
     background: rgb(165, 111, 125);
 }
-article h1, h2{
+article h1,h2,h3{
 border-bottom: 1px solid rgb(88, 40, 40);
 }
 .text2, video{
     display: inline-block;
 }
+
 .text{
     background:rgb(250, 125, 250) ;
+    font-size: 20px;
     width: 80%;
     padding: 8px;
 }
@@ -83,10 +89,67 @@ border-bottom: 1px solid rgb(88, 40, 40);
     width: 80%;
     padding: 8px;
     vertical-align: top;
+    font-size: 20px;
 }
 
 .boton{
     text-align: center; /* alinear texto*/
+    font-size: 20px;
     background-color: rgb(253, 111, 159);
     padding: 10px;
+}
+.boton a{
+    text-decoration: none;
+    color: rgb(106, 13, 192);
+}
+.boton:hover{
+background: rgb(250, 125, 250);
+}
+
+/*articles*/
+
+.img-art{ 
+    max-width: 100%;
+}
+
+footer{
+    background-color: wheat;
+    width: 81.5%; /* Ancho */
+    height: 25ss0px; /* Alto */
+    color: black;
+}
+footer ul, li{
+    list-style-type: none;
+    display: inline-block;
+    font-size: 20px;
+    transition: 0.10s all;
+    padding: 18px 20px;
+    text-align: center;
+}
+
+footer ul li:hover{ /* Cuando este sobre un elemento ocurra un cambio*/
+    background-color: rgb(247, 204, 124);
+}
+
+.text-final{
+    background:wheat ;
+    width: 40%;
+    padding: 10px;
+    vertical-align: top;
+    font-size: 15px;
+    text-align: center;
+ }
+
+ .img-final { 
+    width: 280px; /* Ancho*/
+    padding: 0px; 
+    vertical-align: top;
+    max-width: 100%;
+    float: right;
+    bottom: 100px;
+ }
+ .text-final, .img-final{
+    display: flex;
+    position:relative;
+    float:relative;
 }

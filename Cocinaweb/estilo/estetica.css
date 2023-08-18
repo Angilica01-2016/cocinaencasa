@@ -13,10 +13,11 @@ nav ul li {
     list-style-type: none;
     display: inline-block;
     transition: 0.10s all;
+    font-size: 20px;
     padding: 18px 20px;
 }
 nav ul li:hover { /* Cuando este sobre un elemento ocurra un cambio*/
-    background-color: rgb(247, 204, 124);
+    background-color: rgb(241, 147, 58);
 }
 .img-viggie{
     width: 180px; /* Ancho*/
@@ -28,6 +29,7 @@ nav ul{
     position: relative;
     top: -60px;
 }
+
 nav ul li a{ 
     text-decoration: none; /*decoración de texto ninguno*/
     color: black; /* color letra*/
@@ -40,27 +42,145 @@ h1, figure, ul{
 img{
     max-width: 100%;
 }
-
+/* Estilo*/
 .section1{
-    background-color: rgb(235, 155, 221);
+    background-color: rgb(64, 231, 73);
+    font-size: 20px;
+}
+
+.section2{
+    background-color: rgb(241, 73, 241);
+    
+}
+article h1, h2{
+    border-bottom: 1px solid rgb(88, 40, 40);
 }
 
 .text{
-    background:rgb(250, 125, 250) ;
-    width: 54%;
-    padding: 8px;
-    vertical-align: top;
+    background:rgb(241, 73, 241) ;
+    width: 90%;
+    font-size: 20px;
+   padding: 8px;
+    vertical-align: top; 
 }
 
-.text2{
-    background:rgb(197, 137, 197) ;
-    width: 54%;
+.img-capes{
+    background:rgb(241, 73, 241) ;
+    width: 50%;
     padding: 8px;
+    display: flex;
+    vertical-align: top;
+
+}
+.text2{
+    background:rgb(241, 73, 241) ;
+    width: 90%;
+    padding:  8px;
+    font-size: 20px;
     vertical-align: top;
 }
-article{
-    background: rgb(165, 111, 125);
+.text img-capes{
+    float: right;
+    vertical-align: top;
 }
-article h1, h2{
-border-bottom: 1px solid rgb(70, 27, 27);
+/*articles*/
+
+section{
+    background: rgb(199, 243, 4); /* Color de fondo */
+ padding: 15px;
 }
+  
+.img-art img-capes{ 
+    max-width: 100%;
+}
+.cont-art{
+    width: 740;
+vertical-align: top;
+}
+
+.boton{
+    text-align: center; /* alinear texto*/
+    background-color: rgb(241, 73, 241);
+    padding: 10px;
+    font-size: 20px;
+}
+.boton a{
+    text-decoration: none;
+    color: rgb(66, 5, 58);
+}
+.boton:hover{
+background: rgb(250, 125, 250);
+}
+/*section3*/
+.section3{
+    background-color:  rgb(199, 243, 4); /* Color de fondo */
+    font-size: 20px;
+}
+
+.boton2{
+    text-align: center; /* alinear texto*/
+    background-color: rgb(189, 230, 6);
+    padding: 10px;
+    font-size: 20px;
+}
+.boton2 a{
+    text-decoration: none;
+    color: rgb(8, 12, 240);
+}
+.boton2:hover{
+    background: rgb(240, 146, 58);
+    }
+
+    .img-final { 
+        width: 180px; /* Ancho*/
+        padding: 40px; 
+        vertical-align: top;
+        max-width: 100%;
+        float: right;
+        bottom: 180px;
+        
+    }
+
+    footer{
+        background-color: wheat;
+        width: 100%; /* Ancho */
+        height: 220px; /* Alto */
+        color: black;
+    }
+    footer ul, li{
+        list-style-type: none;
+        display: inline-block;
+        font-size: 15px;
+        transition: 0.10s all;
+        text-align:right;
+        padding: 18px 20px;
+    }
+    
+    footer ul li:hover{ /* Cuando este sobre un elemento ocurra un cambio*/
+        background-color:  rgb(241, 147, 58);
+    
+    }
+
+.text-final{
+    background:wheat ;
+    width: 25%;
+    padding: 20px;
+    vertical-align: top;
+    font-size: 15px;
+    text-align: center;
+    
+}
+
+.img-final { 
+    width: 220px; /* Ancho*/
+    padding: 20px; 
+    vertical-align: top;
+    max-width: 100%;
+    float: right;
+    bottom: 200px;
+ }
+.text-final, .img-final{
+    display: flex;
+    position:relative
+}
+ 
