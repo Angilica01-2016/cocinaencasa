@@ -25,32 +25,29 @@ body {
     font-size: 2rem;
     margin-bottom: 15px;
 }
-        body {
-            font-family: Arial, sans-serif;
-        }
 
-        .category {
-            text-align: center;
-            padding: 20px;
-        }
-    
-        .category img {
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-            transition: transform 0.3s ease-in-out;
-        }
-    
-        .category img:hover {
-            transform: rotate(10deg);
-        }
+/* Estilos para las categorías */
+.category {
+    text-align: center;
+    padding: 20px;
+}
 
-        .card-text-limit {
-            display: -webkit-box;
-            -webkit-box-orient: vertical;
-            -webkit-line-clamp: 2;
-            overflow: hidden;
-            text-overflow: ellipsis;
-        }
-    
-   
+.category img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.category img:hover {
+    transform: rotate(10deg);
+}
+
+/* Estilos para limitar el texto en las tarjetas */
+.card-text-limit {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
